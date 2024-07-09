@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(68, 68, 75);
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 40px;
+}
+.logo>img{
+    height: 37px;
+}
+.search>input{
+    height: 30px;
+    width: 500px;
+    transform: translateX(-200px);
+    border-radius: 5px;
+}
+select{
+    background-color: rgb(68, 68, 75);
+    color: gainsboro;
+    border: none;
+}
+.options button{
+    background-color: rgb(219, 31, 69);
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+    width: 70px;
+}
+.navlinks{
+    background-color: rgb(51,53,69);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    height: 40px;
+}
+.navlinks a{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 4px;
+    color: gainsboro;
+    text-decoration: none;
+}
+#ad{
+    width: 250px;
+    height: 20px;
+}
+sup{
+    color: rgb(255,27,72);
+}
+.slideImage{
+    background-color: gainsboro;
+}
+.slideImage img{
+    border-radius: 10px;
+    margin: 5px;
+}
+.content1 img{
+    width: 1100px;
+    transform: translate(100px,50px);
+}
+.content2{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#section img{
+    height: 370px;
+    width: 220px;
+    border-radius: 10px;
+}
+#section{
+    width: 220px;
+}
+.search img{
+    position: relative;
+    right: 170px;
+    top: 4px;
+    z-index: 1;
+    height: 15px;
+}
+.search input::placeholder{
+    transform: translate(35px);
+}
